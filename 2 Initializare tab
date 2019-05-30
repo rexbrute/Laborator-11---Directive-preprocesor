@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define tab(n) scanf("%d",&n); int tab[n];
+
+
+
+int main()
+{
+
+    int n;
+    tab(n);
+
+    return 0;
+}
