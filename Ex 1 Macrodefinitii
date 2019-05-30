@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define citire(x) scanf("%d",&x);
+#define par(x) ((x)%2? printf("Impar"): printf("Par"));
+#define ridicare(x)  printf("\n%d",x*x);
+
+
+int main()
+{
+    int x;
+    citire(x);
+    par(x);
+    ridicare(x);
+
+    return 0;
+}
